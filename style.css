@@ -1,0 +1,145 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: rgb(40, 20, 6);
+  background-color: rgb(232, 255, 229);
+  font-family: 'Roboto', sans-serif;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.group-text {
+  float: left;
+  width: 49%;
+  padding-top: 0%;
+  margin: 15px;
+  max-width: 49%;
+}
+.group-text h3 {
+  margin: 25px;
+}
+.group-images img{
+  float: left;
+  width: 49%;
+  max-width: 49%;
+  height: 450px;
+}
+header.mainpage {
+  background-image: url('images/mainpage-banner.jpg');
+}
+header.mushrooms {
+  background-image: url('images/image2.jpg');
+}
+header.greens {
+  background-image: url('images/nettle-banner.jpg');
+}
+header.fruit {
+  background-image: url('images/elderberry.jpg');
+}
+header {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #0d0908;
+  height: 370px;
+  padding: 10px;
+  padding-bottom: 480px;
+  margin: 0;
+  text-align: center;
+  font-size: 2.7em;
+  position: static;
+  top: 0;
+}
+header h3 {
+  margin-top: 500px;
+  padding: 15px;
+}
+header p.subtitle {
+  font-size: 50%;
+  text-align: center;
+  margin-top: 7px;
+  color: #37180b;
+}
+.navbar {
+  width: 80%;
+  margin: 10px 10%;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: rgb(147, 217, 120);
+  
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 30px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list li {
+  padding: 0 3vh;
+}
+.navbar a { 
+  color: rgb(41, 16, 0);
+  text-decoration: none;
+  opacity: 1;
+}
+.navbar a:hover {
+  opacity: 0.6;
+}
+
+.home-nav {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+section {
+  border-radius: 28px;
+  margin: 30px 15%;
+  background-color: rgb(212, 253, 206);
+  padding: 25px;
+}
+#image2 {
+  margin: 2% 0;
+  background-image: url('images/image2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+}
+#image3 {
+  margin: 2% 0;
+  background-image: url('images/image3.jpg');
+  background-size: 100%;
+  max-width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+}
+footer {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: rgb(94, 37, 18);
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding: 15px 0;
+}
+footer li {
+  margin: 0;
+  list-style-type: none;
+}
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
